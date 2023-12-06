@@ -1,7 +1,42 @@
 {
-  "name": "lightgallery",
-  "version": "2.7.2",
+  "_from": "lightgallery@^2.7.2",
+  "_id": "lightgallery@2.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==",
+  "_location": "/lightgallery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "lightgallery@^2.7.2",
+    "name": "lightgallery",
+    "escapedName": "lightgallery",
+    "rawSpec": "^2.7.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.7.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/lightgallery/-/lightgallery-2.7.2.tgz",
+  "_shasum": "9309216986fbce60602b851e1ef80cf40769c3d3",
+  "_spec": "lightgallery@^2.7.2",
+  "_where": "C:\\Users\\du14881526\\OneDrive - Male' Water and Sewerage Company Pvt. Ltd\\Desktop\\New folder (2)\\isletrot",
+  "author": {
+    "name": "Sachin Neravath",
+    "email": "sachi77n@gmail.com",
+    "url": "https://github.com/sachinchoolur"
+  },
+  "bugs": {
+    "url": "https://github.com/sachinchoolur/lightGallery/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "lightGallery is a feature-rich, modular JavaScript gallery plugin for building beautiful image and video galleries for the web and the mobile",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://www.lightgalleryjs.com/",
   "keywords": [
     "JavaScript",
     "Gallery",
@@ -9,25 +44,15 @@
     "slider",
     "lightBox"
   ],
+  "license": "GPLv3",
   "main": "lightgallery.umd.js",
   "min": "lightgallery.min.js",
   "module": "lightgallery.es5.js",
-  "typings": "index.d.ts",
+  "name": "lightgallery",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sachinchoolur/lightGallery"
+    "url": "git+https://github.com/sachinchoolur/lightGallery.git"
   },
-  "homepage": "https://www.lightgalleryjs.com/",
-  "bugs": {
-    "url": "https://github.com/sachinchoolur/lightGallery/issues"
-  },
-  "license": "GPLv3",
-  "author": {
-    "name": "Sachin Neravath",
-    "email": "sachi77n@gmail.com",
-    "url": "https://github.com/sachinchoolur"
-  },
-  "engines": {
-    "node": ">=6.0.0"
-  }
+  "typings": "index.d.ts",
+  "version": "2.7.2"
 }
