@@ -273,15 +273,105 @@
     </header>
 
 
+    <!-- Hero slider + BG parallax -->
+    <section class="jarallax bg-dark py-xxl-5" data-jarallax data-speed="0.4" data-bs-theme="dark">
+      <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-translucent"></span>
+      <div class="jarallax-img" style="background-image: url(assets/img/package/rasdhoo_main.png);"></div>
+      <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 
-      <!-- Hero image -->
-      <div class="jarallax d-none d-md-block" data-jarallax data-speed="0.35">
-        <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary-translucent"></span>
-        <div class="jarallax-img" style="background-image: url(assets/img/package/RasdhooMain.png);"></div>
-        <div class="d-none d-xxl-block" style="height: 700px;"></div>
-        <div class="d-none d-md-block d-xxl-none" style="height: 550px;"></div>
+        <!-- Slider controls (Prev / next) -->
+        <button type="button" id="hero-prev" class="btn btn-prev btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 start-0 translate-middle-y d-none d-md-inline-flex ms-n3 ms-lg-2" aria-label="Previous">
+          <i class="bx bx-chevron-left fs-1"></i>
+        </button>
+        <button type="button" id="hero-next" class="btn btn-next btn-icon btn-xl bg-transparent shadow-none position-absolute top-50 end-0 translate-middle-y d-none d-md-inline-flex me-n3 me-lg-2" aria-label="Next">
+          <i class="bx bx-chevron-right fs-1"></i>
+        </button>
+
+        <!-- Slider -->
+        <div class="container text-center py-xl-5">
+          <div class="row justify-content-center pt-lg-5">
+            <div class="col-xl-8 col-lg-9 col-md-10 col-11">
+              <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
+                "effect": "fade",
+                "speed": 500,
+                "autoplay": {
+                  "delay": 5500,
+                  "disableOnInteraction": false
+                },
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true
+                },
+                "navigation": {
+                  "prevEl": "#hero-prev",
+                  "nextEl": "#hero-next"
+                }
+              }'>
+                <div class="swiper-wrapper">
+
+                  <!-- Item -->
+                  <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">Tropical Paradise</h2>
+                    <div class="from-end">
+                      <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Rasdhoo, Maldives, is a tropical paradise with pristine white-sand beaches, crystal-clear turquoise waters, and lush greenery, offering an idyllic setting for a relaxing getaway..</p>
+                    </div>
+                    <div class="scale-up delay-1">
+                      <a href="#" class="btn btn-primary shadow-primary btn-lg">Start your project</a>
+                    </div>
+
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">Diverse Marine Life</h2>
+                    <div class="from-end">
+                      <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Known for its rich underwater biodiversity, Rasdhoo attracts divers with its diverse marine life, including sharks, rays, and vibrant coral reefs, providing an unparalleled diving experience.</p>
+                    </div>
+                    <div class="scale-up delay-1">
+                      <a href="#" class="btn btn-primary shadow-primary btn-lg">View case studies</a>
+                    </div>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide">
+                    <h2 class="display-2 from-start mb-lg-4">Local Charm</h2>
+                    <div class="from-end">
+                      <p class="fs-xl text-light opacity-70 pb-2 mb-lg-5">Beyond its natural beauty, Rasdhoo offers a glimpse into Maldivian culture with its friendly local community, allowing travelers to experience the warmth and hospitality of island life</p>
+                    </div>
+                    <div class="scale-up delay-1">
+                      <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pagination (bullets) -->
+                <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
+      <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between position-relative zindex-5 pb-5">
+        <div class="d-flex mb-4 mb-sm-0">
+          <a href="#" class="btn btn-icon btn-secondary btn-linkedin rounded-circle me-2" aria-label="LinkedIn">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="#" class="btn btn-icon btn-secondary btn-facebook rounded-circle me-2" aria-label="Facebook">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="#" class="btn btn-icon btn-secondary btn-twitter rounded-circle me-2" aria-label="Twitter">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="#" class="btn btn-icon btn-secondary btn-youtube rounded-circle me-2" aria-label="YouTube">
+            <i class="bx bxl-youtube"></i>
+          </a>
+        </div>
+        <a href="#" class="nav-link px-0">
+          All inclusive stay for 7 days, 6 night at Rasdhoo with 8 dives
+          <!-- <i class="bx bx-right-arrow-circle fs-4 ms-2"></i> -->
+        </a>
+      </div>
+    </section>
 
       <!-- Breadcrumb -->
       <nav class="container py-4 mb-2 my-lg-3" aria-label="breadcrumb">
