@@ -1,5 +1,6 @@
 export declare class HTMLImgComparisonSliderElement extends HTMLElement {
     private firstElement;
+    private secondElement;
     private handleElement;
     private imageWidth;
     private imageHeight;
@@ -11,9 +12,7 @@ export declare class HTMLImgComparisonSliderElement extends HTMLElement {
     private animationDirection;
     private transitionTimer;
     private isFocused;
-    private dragByHandle;
-    set handle(newValue: any);
-    get handle(): any;
+    handle: boolean;
     get value(): any;
     set value(newValue: any);
     get hover(): any;
@@ -29,7 +28,6 @@ export declare class HTMLImgComparisonSliderElement extends HTMLElement {
     private slide;
     private onMouseMove;
     private bodyUserSelectStyle;
-    private bodyWebkitUserSelectStyle;
     private onMouseDown;
     private onWindowMouseUp;
     private touchStartPoint;
