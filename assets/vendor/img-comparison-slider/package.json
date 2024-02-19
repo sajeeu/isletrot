@@ -1,10 +1,35 @@
 {
-  "name": "img-comparison-slider",
-  "version": "8.0.1",
+  "_from": "img-comparison-slider@^8.0.1",
+  "_id": "img-comparison-slider@8.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-jtWrWm/IX6O7O+wKf8RDxr/N8p6QATkRe2Eze4/azUCnoJqVcrjiZjJ+RGNTn1Y+2DN1AbZbiu2QCB1uCsLvZQ==",
+  "_location": "/img-comparison-slider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "img-comparison-slider@^8.0.1",
+    "name": "img-comparison-slider",
+    "escapedName": "img-comparison-slider",
+    "rawSpec": "^8.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^8.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/img-comparison-slider/-/img-comparison-slider-8.0.5.tgz",
+  "_shasum": "c0e9572c88644bd0877092282ae2283dfc7f26c8",
+  "_spec": "img-comparison-slider@^8.0.1",
+  "_where": "C:\\Users\\du14881526\\OneDrive - Male' Water and Sewerage Company Pvt. Ltd\\Desktop\\New folder (2)\\isletrot",
+  "bugs": {
+    "url": "https://github.com/sneas/img-comparison-slider/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Slider component to compare images before and after",
+  "devDependencies": {},
   "homepage": "https://img-comparison-slider.sneas.io",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "keywords": [
     "image",
     "img",
@@ -13,17 +38,20 @@
     "comparison",
     "web-component"
   ],
-  "scripts": {
-    "prebuild": "rimraf ./dist",
-    "build": "webpack --env production",
-    "watch": "webpack --watch --env production",
-    "start": "npm run watch",
-    "img-comparison-slider": "npm run watch"
-  },
   "license": "MIT",
+  "main": "dist/index.js",
+  "name": "img-comparison-slider",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sneas/img-comparison-slider.git"
+    "url": "git+https://github.com/sneas/img-comparison-slider.git"
   },
-  "devDependencies": {}
+  "scripts": {
+    "build": "webpack --env production",
+    "img-comparison-slider": "npm run watch",
+    "prebuild": "rimraf ./dist",
+    "start": "npm run watch",
+    "watch": "webpack --watch --env production"
+  },
+  "types": "dist/index.d.ts",
+  "version": "8.0.5"
 }
